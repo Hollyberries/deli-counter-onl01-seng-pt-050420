@@ -27,7 +27,8 @@ def now_serving(name)
   puts "There is nobody waiting to be served!"
   
   else
-  name.first do |customer|
+  name.each do |customer|
+  
   
   end
     puts "Currently serving #{name}."
